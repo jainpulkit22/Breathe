@@ -1,0 +1,34 @@
+<% include partials/header %>
+<div class="container">
+    <div class="row">
+        <h1 style="text-align:center;">Hospital Registration Form</h1>
+        <div style="width:30%; margin:2% auto">
+            <form action="/hospitals" method="POST">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" placeholder="Hospital Name" required>
+                </div>
+                <div class="form=group" style="padding-bottom:4%;">
+                    <input type="text" class="form-control" name="userID" placeholder="Registration Number of Hospital" required>    
+                </div>
+                <div class="form=group" style="padding-bottom:4%;">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required>    
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="doctor_name" placeholder="Name of Doctor In-charge" required>
+                </div>
+                <div class="form=group" style="padding-bottom:4%;">
+                    <input type="text" class="form-control" name="license_no" placeholder="License number of the doctor" required>    
+                </div>
+                <div class="form=group" style="padding-bottom:4%;">
+                    <input type="text" class="form-control" name="city" placeholder="Hospital city" required>    
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-lg btn-block">Submit</button>    
+                </div>
+            </form>
+            
+        <a href="/">Go Back</a>
+        </div>
+    </div>
+</div>
+<% include partials/footer %>
