@@ -352,28 +352,15 @@ doctor team
 /***************************************
 testimonial
 ***************************************/
-#testimonial{
+#learn{
     background-color: #eee;
 }
-.testi-details {
-    background: #fff;
-    padding: 14px 24px;
-    margin-bottom: 20px;
-    box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.18);
-    position: relative;
+.qThingsToKnow{
+    border-right:2px solid #a9b0c2;
+    border-bottom:2px solid #a9b0c2;
+    box-shadow: 0px 1px 0px 0px #a9b0c2;
 }
-.testi-info a {
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px;
-}
-.testi-info a img{
-	border-radius: 50%;
-}
+
 .testi-info h3 {
     display: inline-block;
     line-height: 22px;
