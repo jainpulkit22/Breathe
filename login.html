@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breathe-Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Headland+One&display=swap" rel="stylesheet">
+    <style type="text/css">
+        .button:focus,input:focus{
+            outline: none;
+        }
+        body{
+            background: url("img/bg-banner.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+
+
+        *{
+            font-family: 'Headland One';
+        }
+
+        #container{
+            padding:50px;
+            background: rgba(134, 176, 170,0.3);
+            color:white;
+            width:25%;
+            margin-top:4%;
+            margin-left:30%;
+            margin-right:25%;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        .button{
+            color: #fff !important;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #ed3330;
+            padding: 15px;
+            border-radius: 5px;
+            display: inline-block;
+            border: none;
+            transition: all 0.2s ease 0s;
+            margin-left: 5%;
+            margin-right: 5%;
+            cursor: pointer;
+        }
+        .button:hover{
+            letter-spacing: 1px;
+            background:black;
+        }
+        input{
+            display: inline-block;
+            background: #eee;
+            width: 80%;
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid black;
+        }
+        input:placeholder{
+            font-family: ;
+        }
+        #pw{
+            margin-bottom: 30px;
+        }
+        h2{
+            color: black;
+            margin-bottom: 25px;
+        }
+        </style>
+</head>
+<body>
+    <div id="container">
+        <h2>Welcome!</h2>
+        <form>
+            <input type="textbox" placeholder="UserId" required><br>
+            <input type="password" id="pw" placeholder="password" required><br>
+            <button class="button">
+                Login
+            </button>
+        </form>
+    </div>
+</body>
+</html>
