@@ -47,7 +47,7 @@ app.get("/recipients",function(req,res){
 });
 
 app.get("/recipients/new",function(req,res){
-		res.render("new.ejs");
+		res.render("new");
 });
 
 app.post("/recipients",function(req,res){
