@@ -2,13 +2,63 @@
 <html>
 <head>
 	<title>Sign Up</title>
+	<style type="text/css">
+		.button:focus{
+            outline: none;
+        }
+
+        body{
+            background: url("img/bg-banner.jpg") no-repeat fixed;
+            background-size: cover;
+        }
+
+        *{
+            font-family: 'Headland One';
+        }
+
+        #container{
+            padding:50px;
+            background: rgba(134, 176, 170,0.3);
+            color:white;
+            width:25%;
+            margin-top:4%;
+            margin-left:30%;
+            margin-right:25%;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        button{
+            color: #fff !important;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #ed3330;
+            padding: 15px;
+            border-radius: 5px;
+            display: inline-block;
+            border: none;
+            transition: all 0.2s ease 0s;
+            cursor: pointer;
+            margin: 30px;
+            font-size: 20px;
+        }
+        button:hover{
+            letter-spacing: 1px;
+            background:black;
+        }
+        h1{
+        	color: black;
+        }
+	</style>
 </head>
 <body>
-	<p>Register as:</p>
+	<div id="container">
+	<h1>Register as:</h1>
 	<div>
 		<button onclick="window.location.href = 'http://localhost:27017/recipients/new';">Recipient</button>
 		<button onclick="window.location.href = 'http://localhost:27017/donors/new';">Donor</button>
 		<button onclick="window.location.href = 'http://localhost:27017/hospitals/new';">Hospital</button>
 	</div>
+</div>
 </body>
 </html>
